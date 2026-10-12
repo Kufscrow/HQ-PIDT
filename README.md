@@ -10,5 +10,6 @@ This code contains different code development phases. All these code are perform
   - **Stage 2**: Trained HQ-PIDT model inference with ideal Qiskit Aer Simulation. From this stage, all QML operations are finite-shot based.
   - **Stage 3**: Trained HQ-PIDT model inference with noisy Qiskit Aer Simulation.
   - **Stage 4**: Trained HQ-PIDT model inference with real IBM QPUs.
+- [ ] **Third phase**: ongoing HQ-PIDT optimization based on the product of second phase.
 
 The inference test case is the Distribution System Restoration problem for power system, and testbeds are several standard power simulation systems. Data used for offline training are generated using normal deep reinforcement learning experts. This repositary will not include the generated datasets and the testbeds used.
